@@ -1,11 +1,9 @@
-import Form from "./components/Handle Event/Form";
+import NavBar from "./components/Styling Component/NavBar";
 
 function App() {
   return (
     <>
-      {/* <Button /> */}
-      {/* <Input /> */}
-      <Form />
+      <NavBar />
     </>
   );
 }
