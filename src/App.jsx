@@ -1,9 +1,9 @@
-import NavBar from "./components/Styling Component/NavBar";
+import State from "./components/State and Props/State";
 
 function App() {
   return (
     <>
-      <NavBar />
+      <State />
     </>
   );
 }

@@ -12,18 +12,21 @@
 
 .navbar-items {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   gap: 30px;
 }
+
+ul.navbar-items {
+  margin-bottom: 0;
+}
+
 .navbar-items li {
   list-style-type: none;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
 .navbar-items li a:hover {
-  color: brown;
+  color: rgb(221, 3, 3);
   transition: 0.3s ease-in;
 }
