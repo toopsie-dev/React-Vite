@@ -6,11 +6,11 @@ export default function State() {
   const [isChecked, setIsChecked] = useState(false);
 
   const handleIncrement = () => {
-    setCount((prevState) => count + 1);
+    setCount((count) => count + 1);
   };
 
   const handleDecrement = () => {
-    setCount((prevState) => count - 1);
+    setCount((count) => count - 1);
   };
 
   const handleShowFruits = () => {

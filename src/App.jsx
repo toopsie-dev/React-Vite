@@ -1,11 +1,16 @@
-import State from "./components/State and Props/State";
+import ExpandableText from "./components/ExpandableText";
 
-function App() {
+const App = () => {
   return (
     <>
-      <State />
+      <ExpandableText maxChars={20}>
+        lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+        lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+        lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+        lorem ipsum lorem ipsum
+      </ExpandableText>
     </>
   );
-}
+};
 
 export default App;
