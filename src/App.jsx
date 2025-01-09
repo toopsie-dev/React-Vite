@@ -1,11 +1,11 @@
-import Person from "./components/Person";
-import Todo from "./components/Todo";
+import Form from "./components/Handle Event/Form";
 
 function App() {
   return (
     <>
-      <Todo />
-      <Person />
+      {/* <Button /> */}
+      {/* <Input /> */}
+      <Form />
     </>
   );
 }

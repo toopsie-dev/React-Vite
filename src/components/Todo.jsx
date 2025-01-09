@@ -1,4 +1,4 @@
-const todos = ["Jogging", "learn programming", "Cooking", "Gaming", "Watching"];
+const todos = ["Jogging", "Learn programming", "Cooking", "Gaming", "Watching"];
 
 const Todo = () => {
   return (
