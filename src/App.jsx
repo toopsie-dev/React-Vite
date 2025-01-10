@@ -1,9 +1,9 @@
-import FetchData from "./components/React Hooks/FetchData";
+import UseMemo from "./components/React Hooks/UseMemo";
 
 const App = () => {
   return (
     <>
-      <FetchData />
+      <UseMemo />
     </>
   );
 };
