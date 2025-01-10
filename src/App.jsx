@@ -1,14 +1,9 @@
-import ExpandableText from "./components/ExpandableText";
+import FetchData from "./components/React Hooks/FetchData";
 
 const App = () => {
   return (
     <>
-      <ExpandableText maxChars={20}>
-        lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-        lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-        lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
-        lorem ipsum lorem ipsum
-      </ExpandableText>
+      <FetchData />
     </>
   );
 };
