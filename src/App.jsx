@@ -1,9 +1,9 @@
-import UseMemo from "./components/React Hooks/UseMemo";
+import TodosComponent from "./components/Todos/TodosComponent";
 
 const App = () => {
   return (
     <>
-      <UseMemo />
+      <TodosComponent />
     </>
   );
 };
